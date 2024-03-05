@@ -1,0 +1,49 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: black;
+}
+
+.bg{
+    background-image: url(Assets/bg.jpg);
+    height: 90vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+}
+.box{
+    height: 90vh;
+    opacity: 0.55;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 60vw;
+    margin:auto;
+    height: 78px;
+}
+nav img{
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+    height: 20px;
+    width: 110px;
+}
+.seperate{
+    height: 7px;
+    background-color: rgb(55, 54, 54);
+}
