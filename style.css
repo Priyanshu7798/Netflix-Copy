@@ -76,18 +76,39 @@ nav button{
     font-weight: 600;
     text-align: center;
 }
+
+button{
+    padding: 3px 8px;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin: 3px;
+}
+
 .btn-red-sign{
     background-color: red;
-    color: white;
-    font-family: 'Martel Sans', sans-serif;
-    font-weight: 600;
-    border: none;
-    border-radius: 5px;
-    padding: 3px;
-    margin: 12px;
-    width: 5vw;
-    height: 35px;
+    font-size: 14px;
 }
+
+.btn-red-str{
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    padding: 9px 28px;
+    font-size: 20px;
+}
+
+.email{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 4px 109px 11px 13px;
+    font-size: 20px;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+}
+
 .btn-red-sign:hover{
     cursor: pointer;
     opacity:0.9;
@@ -97,36 +118,11 @@ nav button{
     opacity:0.9;
 }
 .started{
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
-
-.btn-red-str{
-    position: relative;
-    width: 167px;
-    height: 55px;
-    background-color: red;
-    color: white;
-    font-weight: 900;
-    border: none;
-    border-radius: 5px;
-    font-size: 19px;
-
-}
-
-.email{
-    width: 485px;
-    height: 52px;
-    background: center;
-    color: white;
-    font-family: 'Martel Sans';
-    font-weight: 900;
-    border-radius: 8px;
-    margin: 10px;
-    border: 0.5px solid white;
-    position: relative;
-}
-
-
 
 .seperate{
     height: 7px;
@@ -134,3 +130,29 @@ nav button{
     position: relative;
     z-index: 20;
 }
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.secImg{
+    position: relative;
+}
+.secImg img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+.secImg video{
+    position: absolute;
+    top: 63px;
+    right: 0px;
+    width: 26vw;
+    
+}
+
