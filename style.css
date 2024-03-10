@@ -1,5 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+
+
 *{
     margin: 0;padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     background-color: black;
@@ -7,15 +13,15 @@ body{
 
 .bg{
     background-image: url(Assets/bg.jpg);
-    height: 90vh;
+    height: 644px;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1200px,100vw);
 }
-.box{
-    height: 90vh;
-    opacity: 0.55;
+.bg .box{
+    height: 800px;
+    opacity: 0.65;
     width: 100%;
     background-color: black;
     position: absolute;
@@ -23,16 +29,17 @@ body{
 }
 
 nav{
-    padding: 10px 0px;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 60vw;
+    max-width: 81vw;
     margin:auto;
-    height: 78px;
+    height: 100px;
+    padding-bottom: 20px;
 }
 nav img{
-    width: 150px;
+    width: 155px;
     position: relative;
     z-index: 10;
 }
@@ -40,10 +47,90 @@ nav img{
 nav button{
     position: relative;
     z-index: 10;
-    height: 20px;
-    width: 110px;
 }
+.text{
+    font-family: 'Martel Sans', sans-serif;
+    position: relative;
+    height: calc(100% - 100px);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    gap: 23px;
+    padding: 0 30px;
+}
+.text> :nth-child(1){
+    font-size: 48px;
+    font-weight: 900; 
+    text-align: center;
+}
+
+.text> :nth-child(2){
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+.text> :nth-child(3){
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.btn-red-sign{
+    background-color: red;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 12px;
+    width: 5vw;
+    height: 35px;
+}
+.btn-red-sign:hover{
+    cursor: pointer;
+    opacity:0.9;
+}
+.btn-red-str:hover{
+    cursor: pointer;
+    opacity:0.9;
+}
+.started{
+    width: 100%;
+}
+
+.btn-red-str{
+    position: relative;
+    width: 167px;
+    height: 55px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+
+}
+
+.email{
+    width: 485px;
+    height: 52px;
+    background: center;
+    color: white;
+    font-family: 'Martel Sans';
+    font-weight: 900;
+    border-radius: 8px;
+    margin: 10px;
+    border: 0.5px solid white;
+    position: relative;
+}
+
+
+
 .seperate{
     height: 7px;
     background-color: rgb(55, 54, 54);
+    position: relative;
+    z-index: 20;
 }
